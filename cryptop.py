@@ -19,7 +19,7 @@ def if_coin(coin):
 	else:
 		return False
 
-def getPrice(coin, curr = 'USD'):
+def getPrice(coin, curr = 'CAD'):
 	'''Get the data on coins'''
 	try:
 		r = requests.get(
